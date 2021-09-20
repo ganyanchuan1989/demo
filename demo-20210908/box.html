@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box1 {
+        box-sizing: border-box;
+        width: 200px;
+        height: 200px;
+        border: 5px solid #ccc;
+        padding: 10px;
+        background: red;
+      }
+      .box2 {
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+        border: 5px solid red;
+        padding: 10px;
+        background: gold;
+      }
+      .aa {
+        background-color: red;
+        display: block;
+        width: 100px;
+        height: 300px;
+      }
+      .parent {
+        position: relative;
+        width: 200px;
+        height: 500px;
+        background-color: black;
+      }
+      .item {
+        width: 100px;
+        height: 100px;
+        background: green;
+      }
+      .item1 {
+        background: #00ff00;
+      }
+      .item2 {
+        background: green;
+      }
+      .item3 {
+        background: #ccc;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .f {
+        display: flex;
+        height: 50px;
+        background:#ccc;
+      }
+      .f1 {
+        flex: 1;
+      }
+      .f2 {
+        flex: 1;
+      }
+      .f3 {
+        flex: 1;
+      }
+      .fx{
+          height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="aa">fdafdafd</span>
+    <!-- <div class="box1">内容</div>
+    <div class="box2">内容</div> -->
+    <!-- <div style="padding: 50px; position: relative">
+        <div class="parent">
+            <div class="item item1">1</div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+          </div>
+    </div> -->
+    <div class="f">
+      <div class="f1">
+          <span style="display: inline-block;width:20px">1</span>
+      </div>
+      <div class="f2">2</div>
+      <div class="f3">3</div>
+      
+    </div>
+    <div class="fx">dfafda</div>
+  </body>
+</html>
